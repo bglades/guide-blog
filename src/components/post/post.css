@@ -1,0 +1,37 @@
+.post{
+    width: 450px;
+    margin: 10px 25px 40px 25px;
+
+}
+.postImg {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.postCat{
+    font-size: 12px;
+    color: #be9656;
+    line-height: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.postTitle {
+
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.postDesc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
